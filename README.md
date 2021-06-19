@@ -7,6 +7,13 @@ Terraform helps with
 - Control costs systematically as users and applications scale
 - Reduce risk and discover errors before they happen with code reviews and embed provisioning guardrails
 
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
 
 #### Terraform Providers
 Providers are plugins that implement resource types likes Intersight.
