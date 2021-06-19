@@ -57,7 +57,7 @@ To use the Cisco Intersight provider, you need an API key, a secret key, and the
 
 ### Define the Cisco Intersight provider
 
-Each of the directories contain a file named "proivder.tf". Update this file with  API key ID and Secret Key file. The endpoint changes if you are using  Cisco Intersight appliance.
+Each of the directories contain a file named `provider.tf`. Update this file with  API key ID and Secret Key file. The endpoint changes if you are using  Cisco Intersight appliance.
 
 ```
 provider "intersight" {
@@ -147,6 +147,14 @@ This command will execute the plan and commit all the new resources or changes t
 <br />
 <br />
 
+### Summary of steps
+Just to summarize, in each of the directories:
+- Update **provider.tf**file with provider configuration
+- Update **terraform.tfvars** file with required configuration
+- Run **Terraform commands** (init/plan/apply)
+
+<br />
+<br />
 ### Validate and Deploy
 Once the Terraform script has completed, all the necessary policies and profiles for UCS Domain and Servers will appear in your Cisco Intersight management UI, shown in the Policies section and the Profiles section.
 
