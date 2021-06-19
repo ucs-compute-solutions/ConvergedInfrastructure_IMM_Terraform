@@ -108,7 +108,8 @@ Create_Linux_FC_ServerProfile
 OR
 Create_Linux_iSCSI_ServerProfile
 
-If you are configuring Fibre Channel SAN in your CI stack, then configure each parameter required in Create_Linux_FC_ServerProfile. Configurations related to iSCSI SAN can be made in ServerProfile.
+If you are configuring Fibre Channel SAN in your CI stack, then configure each parameter required in Create_Linux_FC_ServerProfile. 
+Configurations related to iSCSI SAN can be made in ServerProfile.
 
 Both directories create Pools, Policies and Profiles required for UCS Servers. Apply Terraform configurations from one of the directories. 
 ```
@@ -118,7 +119,8 @@ Both directories create Pools, Policies and Profiles required for UCS Servers. A
 ```
 Deploy_ServerProfile
 
-This directory defines Terraform configuration for associating server profiles with servers. You can change the configuration in terraform.tfvars file to Disassociate a server profile. 
+This directory defines Terraform configuration for associating server profiles with servers. 
+You can change the configuration in terraform.tfvars file to Disassociate a server profile. 
 ```
 
 <br />
@@ -145,3 +147,17 @@ This command will execute the plan and commit all the new resources or changes t
 
 ### Validate and Deploy
 Once the Terraform script has completed, all the necessary policies and profiles for UCS Domain and Servers will appear in your Cisco Intersight management UI, shown in the Policies section and the Profiles section.
+
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
