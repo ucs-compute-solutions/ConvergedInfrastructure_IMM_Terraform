@@ -89,13 +89,17 @@ Converged Infrastructure stack in Intersight Managed Mode is deployed in multipl
 ```
 #### Create_DomainProfile
 
-This directory defines Terraform configuration for creating all the policies and profiles related to UCS Domain. You need to input Domain related configuration in terraform.tfvars file defined in this directory.
+This directory defines Terraform configuration for creating all the policies and profiles related to UCS Domain. 
+You need to input Domain related configuration in terraform.tfvars file defined in this directory.
 ```
 <br />
 
+```
 #### Deploy_DomainProfile
 
-This directory defines Terraform configuration for applying actions like Deploy domain profile or Unassign already assigned domain profile. Action configuration can be defined in terraform.tfvars file defined in this directory.
+This directory defines Terraform configuration for applying actions like Deploy domain profile or Unassign already assigned domain profile. 
+Action configuration can be defined in terraform.tfvars file defined in this directory.
+```
 
 <br />
 
