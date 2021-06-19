@@ -156,11 +156,11 @@ Once the Terraform script has completed, all the necessary policies and profiles
 <p>
 Just to summarize, in each of the directories:
   <br />
-- Update **provider.tf**file with provider configuration
+>> Update "provider.tf" file with provider configuration
   <br />
-- Update **terraform.tfvars** file with required configuration
+>> Update "terraform.tfvars" file with required configuration
   <br />
-- Run **Terraform commands** (init/plan/apply)
+>> Run "Terraform commands" (init/plan/apply)
 </p>
 <br />
 <br />
