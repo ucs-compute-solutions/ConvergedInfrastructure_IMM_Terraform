@@ -151,6 +151,9 @@ This command will execute the plan and commit all the new resources or changes t
 ### Validate and Deploy
 Once the Terraform script has completed, all the necessary policies and profiles for UCS Domain and Servers will appear in your Cisco Intersight management UI, shown in the Policies section and the Profiles section.
 
+<br />
+<br />
+
 ### Summary of commands to deploy infrastrcutre
 <details><summary>Steps</summary>
 <p>
