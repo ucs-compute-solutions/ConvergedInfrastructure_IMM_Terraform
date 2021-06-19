@@ -1,5 +1,5 @@
 ## Terraform configuration repo to deploy Converged Infrastructure stack in Intersight Managed Mode (IMM)
-## Introduction
+#### Introduction
 Terraform is an open-source infrastructure as code software tool that enables you to safely and predictably create, change, and improve infrastructure.
 Terraform helps with 
 
@@ -127,6 +127,9 @@ This command will execute the script without committing any changes and give a l
 terraform apply
 ```
 This command will execute the plan and commit all the new resources or changes to the environment.
+
+<br />
+<br />
 
 ### Validate and Deploy
 Once the Terraform script has completed, all the necessary policies and profiles for UCS Domain and Servers will appear in your Cisco Intersight management UI, shown in the Policies section and the Profiles section.
