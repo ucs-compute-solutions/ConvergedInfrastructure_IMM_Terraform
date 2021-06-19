@@ -79,19 +79,17 @@ Converged Infrastructure stack in Intersight Managed Mode is deployed in multipl
 <br />
 <br />
 
-> **Hence, we created multiple directories to logically separate each function. Each of these directories define Terraform configuration files, required modules, input it takes and the output.**
- **All you need to do is, input your configuration in the *terraform.tfvar* file in each of the directories and then apply the terraform configuration in sequence.**
+> **We created multiple directories to logically separate each function. Each of these directories define Terraform configuration files, required modules, input it takes and the output. All you need to do is, input your configuration in the *terraform.tfvar* file in each of the directories and then apply the terraform configuration in sequence.**
  
 <br />
 <br />
 
-<details><summary>Details of each directories</summary>
-<p>
+
 Create_DomainProfile
 
 This directory defines Terraform configuration for creating all the policies and profiles related to UCS Domain. 
 You need to input Domain related configuration in terraform.tfvars file defined in this directory.
-</p>
+
 <br />
 
 
@@ -147,17 +145,3 @@ This command will execute the plan and commit all the new resources or changes t
 
 ### Validate and Deploy
 Once the Terraform script has completed, all the necessary policies and profiles for UCS Domain and Servers will appear in your Cisco Intersight management UI, shown in the Policies section and the Profiles section.
-
-## collapsible markdown?
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
