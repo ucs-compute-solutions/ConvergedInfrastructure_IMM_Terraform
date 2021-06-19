@@ -124,7 +124,7 @@ You can change the configuration in terraform.tfvars file to Disassociate a serv
 
 
 ### Execution
-Once all the required variables are entered in terraform.tfvars, run the following commands in each directory
+Once **all the required inputes are entered in terraform.tfvars file**, run the following commands in each directory
 ```
 terraform init
 ```
