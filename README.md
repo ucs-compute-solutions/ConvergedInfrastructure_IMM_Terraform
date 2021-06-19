@@ -148,11 +148,13 @@ This command will execute the plan and commit all the new resources or changes t
 <br />
 
 ### Summary of steps
+<details><summary></summary>
+  <p>
 Just to summarize, in each of the directories:
 - Update **provider.tf**file with provider configuration
 - Update **terraform.tfvars** file with required configuration
 - Run **Terraform commands** (init/plan/apply)
-
+</p>
 <br />
 <br />
 ### Validate and Deploy
