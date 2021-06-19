@@ -6,11 +6,12 @@ Terraform helps with
 •	Control costs systematically as users and applications scale
 •	Reduce risk and discover errors before they happen with code reviews and embed provisioning guardrails
 
-### Terraform Providers
+
+#### Terraform Providers
 Providers are plugins that implement resource types likes Intersight.
 Terraform CLI finds and installs providers when initializing a working directory. It can automatically download providers from a Terraform registry or load them from a local mirror or cache.
 
-### Why Terraform provider for the Cisco Intersight?
+#### Why Terraform provider for the Cisco Intersight?
 The Cisco Intersight platform supports the Terraform provider. The Terraform provider allows organizations to develop Cisco Intersight resources as self-service infrastructure using code rather than manual provisioning.
 This approach provides several benefits:
 •	You can more quickly and easily scale Cisco Intersight resources. You can provision infrastructure in minutes, with little effort, using the automated workflows, performing the same tasks that used to take days.
