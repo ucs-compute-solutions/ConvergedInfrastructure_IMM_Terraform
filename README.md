@@ -109,6 +109,10 @@ Both directories create Pools, Policies and Profiles required for UCS Servers. A
 
 This directory defines Terraform configuration for associating server profiles with servers. You can change the configuration in terraform.tfvars file to Disassociate a server profile. 
 
+<br />
+<br />
+
+
 ### Execution
 Once all the required variables are entered in terraform.tfvars, run the following commands in each directory
 ```
