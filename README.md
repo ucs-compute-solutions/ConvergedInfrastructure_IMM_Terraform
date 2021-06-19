@@ -29,8 +29,8 @@ The set of files used to describe infrastructure in Terraform is known as a Terr
 - Terraform 0.14.0 or later must be installed
 - Access to the Terraform registry via the internet must be available
 
-Clone or fork the  repository to create a local copy of the scripts to work with.
+Clone the "ConvergedInfrastructure_IMM_Terraform"  repository to create a local copy of the scripts to work with.
 
 ```
-git clone https://github.com/ucs-compute-solutions/terraform-intersight-hyperflex.git
+https://github.com/ucs-compute-solutions/ConvergedInfrastructure_IMM_Terraform
 ```
