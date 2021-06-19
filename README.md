@@ -45,3 +45,14 @@ To use the Cisco Intersight provider, you need an API key, a secret key, and the
 - Copy the API key.
 - Save the private key information in a .pem file. Save it in a location in the downloaded repository.
 
+### Define the Cisco Intersight provider
+
+Each of the directories contain a file named "proivder.tf". Update this file with  API key ID and Secret Key file. The endpoint changes if you are using  Cisco Intersight appliance.
+
+```
+provider "intersight" {
+  apikey    = "Your Intersight API Key ID"
+  secretkey = "Intersight Secret Key File (SecretKey.txt)"
+  endpoint  = "www.intersight.com"
+}
+```
