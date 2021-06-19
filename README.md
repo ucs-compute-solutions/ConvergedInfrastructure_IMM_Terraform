@@ -56,8 +56,9 @@ provider "intersight" {
   endpoint  = "www.intersight.com"
 }
 ```
-
-### Workflows
+<br />
+<br />
+## Workflows
 
 Converged Infrastructure stack in Intersight Managed Mode is deployed in multiple phases. It involves below steps in order.
 
