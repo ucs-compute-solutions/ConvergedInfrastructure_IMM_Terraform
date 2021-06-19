@@ -152,18 +152,17 @@ This command will execute the plan and commit all the new resources or changes t
 Once the Terraform script has completed, all the necessary policies and profiles for UCS Domain and Servers will appear in your Cisco Intersight management UI, shown in the Policies section and the Profiles section.
 
 <br />
-<br />
 
 ### Summary of commands to deploy infrastrcutre
 <details><summary>Steps</summary>
 <p>
 Just to summarize, in each of the directories:
   <br />
->> Update "provider.tf" file with provider configuration
+(X) Update "provider.tf" file with provider configuration
   <br />
->> Update "terraform.tfvars" file with required configuration
+(X) Update "terraform.tfvars" file with required configuration
   <br />
->> Run "Terraform commands" (init/plan/apply)
+(X) Run "Terraform commands" (init/plan/apply)
 </p>
 <br />
 <br />
