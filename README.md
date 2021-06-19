@@ -75,7 +75,7 @@ Converged Infrastructure stack in Intersight Managed Mode is deployed in multipl
 
 > **Hence, we created multiple directories to logically separate each function. Each of these directories define Terraform configuration files, required modules, input it takes and the output.**
 
-> **All you need to do is, input your configuration in the “terraform.tfvar” file in each of the directories and then apply the terraform configuration in sequence.**
+> **All you need to do is, input your configuration in the *terraform.tfvar* file in each of the directories and then apply the terraform configuration in sequence.**
  
 <br />
 <br />
