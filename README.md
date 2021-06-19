@@ -1,4 +1,4 @@
-## Terraform configuration repo to deploy Converged Infrastructure stack in Intersight Managed Mode (IMM)
+## Terraform configuration Repository to deploy Converged Infrastructure stack in Intersight Managed Mode (IMM)
 #### Introduction
 Terraform is an open-source infrastructure as code software tool that enables you to safely and predictably create, change, and improve infrastructure.
 Terraform helps with 
