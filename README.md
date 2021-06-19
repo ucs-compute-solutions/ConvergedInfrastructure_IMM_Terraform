@@ -145,3 +145,19 @@ This command will execute the plan and commit all the new resources or changes t
 
 ### Validate and Deploy
 Once the Terraform script has completed, all the necessary policies and profiles for UCS Domain and Servers will appear in your Cisco Intersight management UI, shown in the Policies section and the Profiles section.
+
+oot                         ┌───────────────────────┐             ┌──────────────┐
+ ├─branch-1                  |        Vehicle        ├── has-a ───→|    Engine    |
+ │  ├─sub-branch-1           └───────────────────────┘             └──────────────┘
+ │  └─sub-branch-2                 ↑              ↑                      ↑   ↑                 ------\\
+ ├─branch-2                        |              |                      |   |                 ┤ ^_^ |
+ │  └─sub-branch-3                 |            is-a                     |   |                 └──-──┘  
+ │     ├─a                         |              |                      |   |       
+ │     └─b                         |         ┌────┴─────────┐            |   |
+ ├─branch-3                       is-a       |    Toyota    ├── has-a ───┘   |                 ------\\
+ │  └─sub-branch-4                 |         └──────────────┘                |                 ┤ @_@ |
+ └─branch-4                        |                                       is-a                └──-──┘
+    ├─sub-branch-5                 |                                         |       
+    ├─sub-branch-6           ┌─────┴──────────┐                     ┌────────┴────┐
+    │  └─c                   │   Lamborghini  ├───────has-a ───────→│  V12 Engine │
+    └─sub-branch-7           └────────────────┘                     └─────────────┘
