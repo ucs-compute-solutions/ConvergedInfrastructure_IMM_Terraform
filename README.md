@@ -69,17 +69,17 @@ Converged Infrastructure stack in Intersight Managed Mode is deployed in multipl
 5. Configure UCS Server Profiles
 6. Associating profiles to physical servers.
 
-_
-_
-_
+<br />
+<br />
+<br />
 
 > **Hence, we created multiple directories to logically separate each function. Each of these directories define Terraform configuration files, required modules, input it takes and the output.**
 
 > **All you need to do is, input your configuration in the “terraform.tfvar” file in each of the directories and then apply the terraform configuration in sequence.**
  
-_
-_
-_
+<br />
+<br />
+<br />
 
 #### Create_DomainProfile
 
