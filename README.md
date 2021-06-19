@@ -86,18 +86,19 @@ Converged Infrastructure stack in Intersight Managed Mode is deployed in multipl
 <br />
 <br />
 <br />
-```
+
 #### Create_DomainProfile
 
 This directory defines Terraform configuration for creating all the policies and profiles related to UCS Domain. You need to input Domain related configuration in terraform.tfvars file defined in this directory.
 
-```
-```
+<br />
+
 #### Deploy_DomainProfile
 
 This directory defines Terraform configuration for applying actions like Deploy domain profile or Unassign already assigned domain profile. Action configuration can be defined in terraform.tfvars file defined in this directory.
-```
-```
+
+<br />
+
 #### Create_Linux_FC_ServerProfile
 #### OR
 #### Create_Linux_iSCSI_ServerProfile
@@ -105,12 +106,13 @@ This directory defines Terraform configuration for applying actions like Deploy 
 If you are configuring Fibre Channel SAN in your CI stack, then configure each parameter required in Create_Linux_FC_ServerProfile. Configurations related to iSCSI SAN can be made in ServerProfile.
 
 Both directories create Pools, Policies and Profiles required for UCS Servers. Apply Terraform configurations from one of the directories. 
-```
-```
+
+<br />
+
 #### Deploy_ServerProfile
 
 This directory defines Terraform configuration for associating server profiles with servers. You can change the configuration in terraform.tfvars file to Disassociate a server profile. 
-```
+
 <br />
 <br />
 
