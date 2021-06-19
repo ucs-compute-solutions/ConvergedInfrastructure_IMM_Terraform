@@ -23,3 +23,14 @@ This approach provides several benefits:
 The set of files used to describe infrastructure in Terraform is known as a Terraform configuration. The configuration is written using HashiCorp Configuration Language (HCL), 	a simple human-readable configuration language, to define a desired topology of infrastructure resources.
 
 ## Automated Solution Deployment
+
+### Installation
+
+- Terraform 0.14.0 or later must be installed
+- Access to the Terraform registry via the internet must be available
+
+Clone or fork the  repository to create a local copy of the scripts to work with.
+
+```
+git clone https://github.com/ucs-compute-solutions/terraform-intersight-hyperflex.git
+```
