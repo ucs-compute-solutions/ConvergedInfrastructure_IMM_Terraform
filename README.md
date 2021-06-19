@@ -86,7 +86,7 @@ Converged Infrastructure stack in Intersight Managed Mode is deployed in multipl
 <br />
 <br />
 
-<details><summary>Create_DomainProfile</summary>
+<details><summary>Details of each directories</summary>
 <p>
 Create_DomainProfile
 
