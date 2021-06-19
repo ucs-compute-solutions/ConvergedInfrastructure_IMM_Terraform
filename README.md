@@ -97,4 +97,20 @@ Both directories create Pools, Policies and Profiles required for UCS Servers. A
 
 This directory defines Terraform configuration for associating server profiles with servers. You can change the configuration in terraform.tfvars file to Disassociate a server profile. 
 
+### Execution
+Once all the required variables are entered in terraform.tfvars, run the following commands in each directory
+```
+terraform init
+```
+This command will initialize the environment and download the Cisco Intersight Terraform provider to the .terraform folder.
+```
+terraform plan
+```
+This command will execute the script without committing any changes and give a list of all the resources that will be created. Examine the output of the plan execution for any warnings or errors.
+```
+terraform apply
+```
+This command will execute the plan and commit all the new resources or changes to the environment.
 
+### Validate and Deploy
+Once the Terraform script has completed, all the necessary policies and profiles for UCS Domain and Servers will appear in your Cisco Intersight management UI, shown in the Policies section and the Profiles section.
