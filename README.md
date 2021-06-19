@@ -40,7 +40,7 @@ https://github.com/ucs-compute-solutions/ConvergedInfrastructure_IMM_Terraform
 
 
 <br />
-<br />
+
 
 ### Generate API keys
 
@@ -53,7 +53,6 @@ To use the Cisco Intersight provider, you need an API key, a secret key, and the
 - Save the private key information in a .pem file. Save it in a location in the downloaded repository.
 
 
-<br />
 <br />
 
 ### Define the Cisco Intersight provider
@@ -69,9 +68,8 @@ provider "intersight" {
 ```
 
 <br />
-<br />
 
-## Workflows
+### Workflows
 
 Converged Infrastructure stack in Intersight Managed Mode is deployed in multiple phases. It involves below steps in order.
 
