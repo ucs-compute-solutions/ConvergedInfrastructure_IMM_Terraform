@@ -22,6 +22,9 @@ This approach provides several benefits:
 - The provider enables idempotency, producing the same result and state with repeated API calls.
 The set of files used to describe infrastructure in Terraform is known as a Terraform configuration. The configuration is written using HashiCorp Configuration Language (HCL), 	a simple human-readable configuration language, to define a desired topology of infrastructure resources.
 
+<br />
+<br />
+
 ## Automated Solution Deployment
 
 ### Installation
@@ -56,8 +59,10 @@ provider "intersight" {
   endpoint  = "www.intersight.com"
 }
 ```
+
 <br />
 <br />
+
 ## Workflows
 
 Converged Infrastructure stack in Intersight Managed Mode is deployed in multiple phases. It involves below steps in order.
