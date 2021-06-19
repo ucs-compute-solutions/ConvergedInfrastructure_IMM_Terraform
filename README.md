@@ -38,6 +38,10 @@ Clone the "ConvergedInfrastructure_IMM_Terraform"  repository to create a local 
 https://github.com/ucs-compute-solutions/ConvergedInfrastructure_IMM_Terraform
 ```
 
+
+<br />
+<br />
+
 ### Generate API keys
 
 To use the Cisco Intersight provider, you need an API key, a secret key, and the Cisco Intersight endpoint URL. To generate the keys, follow these steps:
@@ -47,6 +51,10 @@ To use the Cisco Intersight provider, you need an API key, a secret key, and the
 - On the Generate New API Key screen, enter the purpose for the API key and click Generate. The API key ID and RSA private key are displayed.
 - Copy the API key.
 - Save the private key information in a .pem file. Save it in a location in the downloaded repository.
+
+
+<br />
+<br />
 
 ### Define the Cisco Intersight provider
 
