@@ -82,7 +82,7 @@ san_boot_target_3_wwpn      = "52:4a:93:79:98:1a:ae:01"
 san_boot_target_4_wwpn      = "52:4a:93:79:98:1a:ae:11"
 
 
-#Ethernet QoS Policy
+#Ethernet QoS Policy. Specify MTU for management interface
 mtu                         = 1500
 
 
