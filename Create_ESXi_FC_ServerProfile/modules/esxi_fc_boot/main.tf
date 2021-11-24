@@ -721,7 +721,7 @@ resource "intersight_vnic_eth_if" "vnic-01-vSwitch0-B" {
   }]
 
   mac_pool = [{
-    moid                  = var.moid_of_mac_pool_a
+    moid                  = var.moid_of_mac_pool_b
     additional_properties = ""
     class_id              = ""
     object_type           = ""
@@ -874,7 +874,7 @@ resource "intersight_vnic_eth_if" "vnic-03-VDS0-B" {
   }]
 
   mac_pool = [{
-    moid                  = var.moid_of_mac_pool_a
+    moid                  = var.moid_of_mac_pool_b
     additional_properties = ""
     class_id              = ""
     object_type           = ""
@@ -1105,7 +1105,7 @@ resource "intersight_vnic_fc_if" "vHBA-B" {
   wwpn_address_type = "POOL"
 
   wwpn_pool = [{
-    moid                  = var.moid_of_wwpn_pool-a
+    moid                  = var.moid_of_wwpn_pool-b
     object_type           = "fcpool.Pool"
     selector              = ""
     additional_properties = ""
